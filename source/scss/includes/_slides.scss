@@ -3,35 +3,137 @@
     height: 100%;
     background-image: url(../img/1_slide_bg.jpg);
     background-size: cover;
+    &--2{
+        .group{
+            &--1{
+                &_place{
+                    width: 45.4%;
+                    transform: none;
+                }
+                &_circle{
+                    &_slide{
+                        &--1{
+                            position: absolute;
+                            transform: translate(calc(-50% - 527px), -50%);
+                            opacity: 0;
+                        }
+                        &--2{
+                            opacity: 1;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+                &_content{
+                    transform: none;
+                    opacity: 1;
+                }
+            }
+        }
+    }
 }
 
 .group{
+    display: flex;
     height: 100%;
     &--1{
         &_place{
             background-color: rgba(21,71,127,.8);
             height: 100%;
             width: 80%;
+            flex: 0 0 auto;
             display: flex;
             align-items: center;
             justify-content: center;
             transform: skewX(17deg) translateX(-20%);
-            transition: width .4s ease-in-out,-webkit-transform .4s ease-in-out;
-            transition: transform .4s ease-in-out,width .4s ease-in-out;
-            transition: transform .4s ease-in-out,width .4s ease-in-out,-webkit-transform .4s ease-in-out;
+            transition: transform .4s ease-in-out, width .4s ease-in-out;
             overflow: hidden;
         }
         &_circle{
             transition: transform .4s ease-in-out;
-            transition: transform .4s ease-in-out,-webkit-transform .4s ease-in-out;
-            transform: skewX(-17deg);
             width: 527px;
             height: 527px;
             border: 10px solid #ffffff;
             border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 95px;
+            overflow: hidden;
+            &_slide{
+                opacity: 0;
+                transition: 400ms ease-in-out;
+                transform: translate(-50%, -50%);         
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                img{
+                    max-width: none;
+                }
+                &--1{
+                    opacity: 1;
+                }
+                &--2{
+                    transform: translate(calc(-50% + 527px), -50%);   
+                }
+            }
+        }
+        &_content{
+            opacity: 0;
+            height: 100%;
+            background: $white;
+            width: 54.6%;
+            transform: translateX(100%);
+            transition: 400ms ease-in-out;
+            position: relative;
+        }
+        &_list{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transition: transform .4s ease-in-out;
+            &--1{
+                transform: translateY(-50%)
+            }
+            &--2{
+                transform: translateY(100%)
+            }
+            li{
+                width: 100%;
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 10px;
+                padding-left: 128px;
+                position: relative;
+                line-height: 1.2;
+                min-height: 60px;
+                overflow: hidden;
+                padding-top: .3em;
+                &:last-child{
+                    margin: 0;
+                }
+                span{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    &::before{
+                        background-color: #14477f;
+                        content: "";
+                        display: inline-block;
+                        vertical-align: middle;
+                        height: 4px;
+                        width: 60px;
+                    }
+                    &::after{
+                        background-color: #14477f;
+                        border-radius: 50%;
+                        content: "";
+                        display: inline-block;
+                        vertical-align: middle;
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+            }
         }
     }
 }
