@@ -36,6 +36,10 @@
     &--3{
         .group{
             &--1{
+                background-position: left center;
+                background-size: auto 100%;
+                background-repeat: no-repeat;
+                background-position: -110%;
                 &_circle{
                     &_slide{
                         &--2{
@@ -67,10 +71,13 @@
         background-image: url(../img/4_slide_bg.jpg);
         .group{
             &--1{
+                background-image: url(../img/5_slide_bg.jpg);
+                transition: 300ms;
                 &_circle{
                     left: 50%;
                     transform: translate(-50%, -60%);
                     background: #14477f;
+                    transform-origin: left top;
                     &_slide{
                         &--3{
                             transform: translate(calc(-50% + 527px), -50%);
@@ -83,12 +90,18 @@
                     }
                 }
                 &_place{
-                    width: 0;
+                    transform: translateX(-100%);
                     opacity: 0;
+                    background-color: rgba(#14477f, 0.9);
                 }
                 &_content{
-                    width: 0;
+                    transform: translateX(100%);
                     opacity: 0;
+                }
+                &_list{
+                    &--2{
+                        opacity: 0;
+                    }
                 }
                 &_peoples{
                     opacity: 1;
@@ -96,6 +109,45 @@
                 }
                 &_counter{
                     transform: rotate(-90deg) translate(50%, 0);
+                }
+            }
+        }
+    }
+    &--5{
+        background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+        .group{
+            &--1{
+                background-position: 0;
+                &_circle{
+                    transform: scale(0.0001) translate(-50%, -60%);
+                }
+                &_place{
+                    transform: none;
+                    width: 30%;
+                    opacity: 1;
+                    transition-delay: 100ms;
+                    z-index: 2;
+                    &_header{
+                        transform: none;
+                    }
+                }
+                &_content{
+                    width: 50%;
+                    transform: none;
+                    opacity: 1;
+                }
+                &_list{
+                    &--3{
+                        opacity: 1;
+                        z-index: 2;
+                    }
+                }
+                &_peoples{
+                    z-index: 0;
+                    opacity: 0;
+                }
+                &_counter{
+                    transform: rotate(-90deg) translate(50%, -150%);
                 }
             }
         }
@@ -112,12 +164,20 @@
             height: 100%;
             width: 80%;
             flex: 0 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             transform: skewX(17deg) translateX(-20%);
             transition: .4s ease-in-out;
+            padding: 35px 30px;
             overflow: hidden;
+            &_header{
+                font-size: 46px;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: $white;
+                white-space: nowrap;
+                transform: translateX(-110%);
+                transition: .4s ease-in-out;
+                transition-delay: 150ms;
+            }
         }
         &_circle{
             transition: .4s ease-in-out;
@@ -149,6 +209,7 @@
             }
         }
         &_content{
+            flex: 0 0 auto;
             opacity: 0;
             height: 100%;
             background: $white;
@@ -163,11 +224,32 @@
             top: 50%;
             left: 0;
             transition: .4s ease-in-out;
+            z-index: 1;
             &--1{
                 transform: translateY(-50%)
             }
             &--2{
                 transform: translateY(100%)
+            }
+            &--3{
+                transform: translateY(-50%);
+                opacity: 0;
+                z-index: 0;
+            }
+            &.numbered{
+                counter-reset: number;
+                span{
+                    &::after{
+                        counter-increment: number;
+                        content: counter(number);
+                    }
+                }
+            }
+            &.large{
+                li{
+                    font-size: 25px;
+                    margin-bottom: 30px;
+                }
             }
             li{
                 width: 100%;
@@ -203,6 +285,12 @@
                         vertical-align: middle;
                         height: 40px;
                         width: 40px;
+                        font-weight: 700;
+                        font-size: 25px;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: $white;
                     }
                 }
             }
