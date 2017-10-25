@@ -6,3 +6,19 @@
 */
 
 // $(document).foundation();
+
+var current = 1;
+
+$('.switcher_button--prev').click(function(){
+    if(current > 1){
+        $('.slides').removeClass('slides--' + current);
+        current--
+    }
+});
+
+$('.switcher_button--next').click(function(){
+    if(current >= 1){
+        current++
+        $('.slides').addClass('slides--' + current);
+    }
+});

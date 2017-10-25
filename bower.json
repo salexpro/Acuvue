@@ -12,7 +12,8 @@
     "foundation-sites": "^6.4.3",
     "motion-ui": "~1.2.2",
     "jquery": "^3.2.1",
-    "what-input": "^5.0.1"
+    "what-input": "^5.0.1",
+    "font-awesome": "^4.7.0"
   },
   "ignore": [
     "**/.*",
