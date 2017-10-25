@@ -101,8 +101,10 @@ html(lang="ru")
                             li
                                 span
                                 | Вспомогательные материалы для сотрудников оптик            
-
+                    .group--1_peoples
+                    .group--1_counter
+                        | -01
             .switcher
-                button.switcher_button.switcher_button--prev
-                button.switcher_button.switcher_button--next
+                button.switcher_button.switcher_button--prev(data-action='prev' disabled)
+                button.switcher_button.switcher_button--next(data-action='next')
         script(src="./js/app.min.js")

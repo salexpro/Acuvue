@@ -3,6 +3,9 @@
     height: 100%;
     background-image: url(../img/1_slide_bg.jpg);
     background-size: cover;
+    transition: 400ms;
+    position: relative;
+    z-index: 1;
     &--2{
         .group{
             &--1{
@@ -54,6 +57,46 @@
                         transform: translateY(-50%)
                     }
                 }
+                &_peoples{
+                    z-index: 2;
+                }
+            }
+        }
+    }
+    &--4{
+        background-image: url(../img/4_slide_bg.jpg);
+        .group{
+            &--1{
+                &_circle{
+                    left: 50%;
+                    transform: translate(-50%, -60%);
+                    background: #14477f;
+                    &_slide{
+                        &--3{
+                            transform: translate(calc(-50% + 527px), -50%);
+                            opacity: 0;
+                        }
+                        &--2{
+                            opacity: 1;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+                &_place{
+                    width: 0;
+                    opacity: 0;
+                }
+                &_content{
+                    width: 0;
+                    opacity: 0;
+                }
+                &_peoples{
+                    opacity: 1;
+                    z-index: 2;
+                }
+                &_counter{
+                    transform: rotate(-90deg) translate(50%, 0);
+                }
             }
         }
     }
@@ -61,6 +104,7 @@
 
 .group{
     display: flex;
+    justify-content: space-between;
     height: 100%;
     &--1{
         &_place{
@@ -72,11 +116,11 @@
             align-items: center;
             justify-content: center;
             transform: skewX(17deg) translateX(-20%);
-            transition: transform .4s ease-in-out, width .4s ease-in-out;
+            transition: .4s ease-in-out;
             overflow: hidden;
         }
         &_circle{
-            transition: transform .4s ease-in-out;
+            transition: .4s ease-in-out;
             width: 527px;
             height: 527px;
             border: 10px solid #ffffff;
@@ -112,6 +156,7 @@
             transform: translateX(100%);
             transition: 400ms ease-in-out;
             position: relative;
+            z-index: 3;
         }
         &_list{
             position: absolute;
@@ -161,6 +206,26 @@
                     }
                 }
             }
+        }
+        &_peoples{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-image: url(../img/4_slide_peoples.png);
+            background-position: bottom center;
+            background-size: cover;
+            opacity: 0;
+            transition: 400ms;
+        }
+        &_counter{
+            position: absolute;
+            top: 50%;
+            left: 17px;
+            transform: rotate(-90deg) translate(50%, -150%);
+            transition: 400ms ease-in-out;
+            font-size: 30px;
+            color: $white;
         }
     }
 }

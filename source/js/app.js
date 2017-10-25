@@ -9,16 +9,17 @@
 
 var current = 1;
 
-$('.switcher_button--prev').click(function(){
-    if(current > 1){
+$('.switcher_button').click(function(){
+    if($(this).data('action')=='prev'){
         $('.slides').removeClass('slides--' + current);
-        current--
-    }
-});
-
-$('.switcher_button--next').click(function(){
-    if(current >= 1){
-        current++
+        current--;
+    } else {
+        current++;
         $('.slides').addClass('slides--' + current);
+    };
+    if(current > 1){
+        $('.switcher_button--prev').prop('disabled', false);
+    } else {
+        $('.switcher_button--prev').prop('disabled', true);
     }
-});
+})

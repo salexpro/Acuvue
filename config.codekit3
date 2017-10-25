@@ -4672,6 +4672,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/4_slide_peoples.png": {
+		"ft": 32768,
+		"iS": 96839,
+		"oA": 0,
+		"oAP": "\/build\/img\/4_slide_peoples.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/5_slide_items.png": {
 		"ft": 32768,
 		"iS": 17907,

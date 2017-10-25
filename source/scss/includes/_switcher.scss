@@ -46,5 +46,12 @@
                 transform: rotate(180deg) translateX(-8%);
             }
         }
+        &[disabled]{
+            cursor: no-drop;
+            background: $medium-gray;
+            &::before{
+                background-image: url(../img/preza-arrow-white.png);
+            }
+        }
     }
 }
