@@ -30,6 +30,33 @@
             }
         }
     }
+    &--3{
+        .group{
+            &--1{
+                &_circle{
+                    &_slide{
+                        &--2{
+                            transform: translate(calc(-50% - 527px), -50%);
+                            opacity: 0;
+                        }
+                        &--3{
+                            opacity: 1;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+                &_list{
+                    &--1{
+                        transform: translateY(-100%);
+                        top: 0;
+                    }
+                    &--2{
+                        transform: translateY(-50%)
+                    }
+                }
+            }
+        }
+    }
 }
 
 .group{
@@ -72,7 +99,7 @@
                 &--1{
                     opacity: 1;
                 }
-                &--2{
+                &--2, &--3{
                     transform: translate(calc(-50% + 527px), -50%);   
                 }
             }
@@ -90,7 +117,7 @@
             position: absolute;
             top: 50%;
             left: 0;
-            transition: transform .4s ease-in-out;
+            transition: .4s ease-in-out;
             &--1{
                 transform: translateY(-50%)
             }
