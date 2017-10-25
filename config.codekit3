@@ -4714,17 +4714,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/img\/6_slide_men.png": {
-		"ft": 32768,
-		"iS": 1361,
-		"oA": 0,
-		"oAP": "\/build\/img\/6_slide_men.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/source\/img\/7_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 98047,
@@ -4733,6 +4722,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/7_slide_men.png": {
+		"ft": 32768,
+		"iS": 1361,
+		"oA": 0,
+		"oAP": "\/build\/img\/7_slide_men.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/source\/img\/8_slide_bg.jpg": {
@@ -4889,7 +4889,7 @@
 	"displayValue": "Acuvue",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 530637875
+	"lastBuiltDate": 530664726
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
