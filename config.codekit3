@@ -4683,17 +4683,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/img\/4_slide_text.png": {
-		"ft": 32768,
-		"iS": 3477,
-		"oA": 0,
-		"oAP": "\/build\/img\/4_slide_text.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/source\/img\/5_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 436494,
@@ -4766,11 +4755,55 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/source\/img\/9_slide_text.png": {
+		"ft": 32768,
+		"iS": 3477,
+		"oA": 0,
+		"oAP": "\/build\/img\/9_slide_text.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/box.png": {
+		"ft": 32768,
+		"iS": 3295,
+		"oA": 0,
+		"oAP": "\/build\/img\/box.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/lenses.png": {
+		"ft": 32768,
+		"iS": 1136,
+		"oA": 0,
+		"oAP": "\/build\/img\/lenses.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 13454,
 		"oA": 0,
 		"oAP": "\/build\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/points.png": {
+		"ft": 32768,
+		"iS": 1010,
+		"oA": 0,
+		"oAP": "\/build\/img\/points.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -4796,6 +4829,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/qr.png": {
+		"ft": 32768,
+		"iS": 2937,
+		"oA": 0,
+		"oAP": "\/build\/img\/qr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -4900,7 +4944,7 @@
 	"displayValue": "Acuvue",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 530664726
+	"lastBuiltDate": 530727791
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
