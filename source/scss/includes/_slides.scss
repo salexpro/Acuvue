@@ -183,6 +183,9 @@
                 &_men{
                     transition-delay: 0s;
                 }
+                &_peoples{
+                    display: none;
+                }
             }
         }
     }
@@ -234,6 +237,17 @@
                         }
                     }
                 }
+                &_circle{
+                    &_slide{
+                        &--2{
+                            display: none;
+                        }
+                        &--4{
+                            opacity: 1;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
                 &_content{
                     width: 73%;
                 }
@@ -251,6 +265,24 @@
                     transform: translateY(100%);
                     opacity: 0;
                     transition-delay: 0s;
+                }
+            }
+        }
+    }
+    &--9{
+        background-image: url(../img/9_slide_bg.jpg);
+        .group{
+            &--1{
+                background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+                background-position: -100% 0;
+                &_circle{
+                    transform: scale(1) translate(-50%, -50%);
+                }
+                &_place{
+                    transform: translateX(-100%);
+                }
+                &_content{
+                    transform: translateX(100%);
                 }
             }
         }

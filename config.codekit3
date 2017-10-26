@@ -4683,6 +4683,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/4_slide_text.png": {
+		"ft": 32768,
+		"iS": 3477,
+		"oA": 0,
+		"oAP": "\/build\/img\/4_slide_text.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/5_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 436494,
@@ -4747,7 +4758,7 @@
 		},
 	"\/source\/img\/9_slide_bg.jpg": {
 		"ft": 16384,
-		"iS": 249743,
+		"iS": 1418442,
 		"oA": 0,
 		"oAP": "\/build\/img\/9_slide_bg.jpg",
 		"oF": 0,
