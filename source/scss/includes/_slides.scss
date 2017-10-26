@@ -304,7 +304,6 @@
         }
     }
     &--10{
-        // background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
         .group{
             &--1{
                 &_circle{
@@ -324,6 +323,21 @@
                 }
                 &_list--10{
                     opacity: 1;
+                }
+            }
+        }
+    }
+    &--11{
+        .group{
+            &--1{
+                &_list{
+                    &--10{
+                        top: 0;
+                        transform: translate3d(0, -100%, 0);
+                    }
+                    &--11{
+                        transform: translate3d(0, -50%, 0);
+                    }
                 }
             }
         }
@@ -420,12 +434,25 @@
                     }
                 }
             }
+            &--numbered{
+                counter-reset: number;
+                ol li{
+                    counter-increment: number;
+                    span{
+                        &::after{
+                            
+                            content: counter(number);
+                        }
+                    }
+                }
+                
+            }
             &.images{
                 li{
                     display: flex;
                     align-items: center;
                     padding: 0;
-                    margin-bottom: 40px;
+                    margin-bottom: 35px;
                     span{
                         position: static;
                         display: flex;
@@ -434,11 +461,6 @@
                 }
 
             }
-            &.medium{
-                li{
-                    font-size: 20px;
-                }
-            }
             &.large{
                 li{
                     font-size: 25px;
@@ -446,14 +468,14 @@
                 }
             }
             &_img{
-                flex: 0 0 115px;
-                width: 115px;
-                height: 115px;
+                flex: 0 0 125px;
+                width: 125px;
+                height: 125px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-left: 43px;
-                margin-right: 85px;
+                margin-left: 45px;
+                margin-right: 50px;
             }
             li{
                 width: 100%;
@@ -521,6 +543,9 @@
                 transform: translate3d(0, -50%, 0);
                 opacity: 0;
                 z-index: -1;
+            }
+            &--11{
+                transform: translate3d(0, 120%, 0)
             }
         }
         &_peoples{

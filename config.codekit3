@@ -4513,6 +4513,17 @@
 		"oAP": "\/build\/fonts\/Circe\/Circe-Thin.woff2",
 		"oF": 0
 		},
+	"\/source\/img\/120.png": {
+		"ft": 32768,
+		"iS": 6281,
+		"oA": 0,
+		"oAP": "\/build\/img\/120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/17_slid_mask.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -4777,6 +4788,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/diploma.png": {
+		"ft": 32768,
+		"iS": 3019,
+		"oA": 0,
+		"oAP": "\/build\/img\/diploma.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/lenses.png": {
 		"ft": 32768,
 		"iS": 1136,
@@ -4840,6 +4862,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/score.png": {
+		"ft": 32768,
+		"iS": 3031,
+		"oA": 0,
+		"oAP": "\/build\/img\/score.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
