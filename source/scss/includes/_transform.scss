@@ -485,6 +485,14 @@
             }
             &--3{
                 transform: translate3d(0, 0, 0);
+                &_digit{
+                    transform: translate3d(0, 0, 0);
+                    transition-delay: 200ms;
+                }
+                &_content{
+                    transform: translate3d(0, 0, 0);
+                    transition-delay: 400ms;
+                }
             }
         }
     }

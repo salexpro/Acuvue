@@ -601,7 +601,7 @@
         left: 0;
         transform: translate3d(0, 100%, 0);
         display: flex;
-        transition: .4s ease-in-out;
+        transition: 400ms ease-in-out;
         background: $white;
         background-image: url(../img/15_bg.jpg);
         background-size: cover;
@@ -610,6 +610,8 @@
             height: 100%;
             background-image: url(../img/15_step.png);
             background-size: cover;
+            transition: 400ms ease-in-out;
+            transform: translate3d(-100%, 0, 0);
         }
         &_content{
             width: 100%;
@@ -621,6 +623,8 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            transition: 400ms ease-in-out;
+            transform: translate3d(100%, 0, 0);
             p{
                 font-weight: 700;
             }
