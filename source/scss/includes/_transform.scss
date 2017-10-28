@@ -465,10 +465,15 @@
             &--2{
                 transform: translate3d(0, 0, 0);
                 &_header--14{
-                    display: block;
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
                 }
                 &_descr--14{
-                    display: block;
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
+                }
+                &_step{
+                    transform: scale(1);
                 }
             }
         }
