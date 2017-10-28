@@ -502,10 +502,12 @@
             font-weight: 800;
             text-transform: uppercase;
             margin-left: 40px;
+            display: none;
         }
         &_descr{
             font-size: 30px;
             margin-left: 40px;
+            display: none;
         }
         &_steps{
             display: flex;
@@ -542,6 +544,39 @@
                     .group--2_step_content{
                         background-image: url(../img/14_step#{$i}.png);
                     }
+                }
+            }
+        }
+        &_table{
+            display: none;
+            padding: 0 10px;
+            padding-bottom: 20px;
+            &_column{
+                border: 3px solid $primary-color;
+                margin: 0 10px;
+                display: flex;
+                flex-direction: column;
+                &_header{
+                    background-color: $primary-color;
+                    min-height: 120px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    color: $white;
+                    font-size: 25px;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                    padding: 0 50px;
+                }
+                &_content{
+                    font-size: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    height: 100%;
+                    padding: 20px;
                 }
             }
         }

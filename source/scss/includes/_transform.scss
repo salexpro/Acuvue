@@ -464,6 +464,12 @@
             }
             &--2{
                 transform: translate3d(0, 0, 0);
+                &_header--14{
+                    display: block;
+                }
+                &_descr--14{
+                    display: block;
+                }
             }
         }
     }
@@ -474,6 +480,38 @@
             }
             &--3{
                 transform: translate3d(0, 0, 0);
+            }
+        }
+    }
+    &--21{
+        .group{
+            &--3{
+                transform: translate3d(0, -100%, 0);
+            }
+            &--2{
+                transform: translate3d(0, 0, 0);
+                &_header{
+                    &--14{
+                        display: none;
+                    }
+                    &--21{
+                        display: block;
+                    }
+                }
+                &_descr{
+                    &--14{
+                        display: none;
+                    }
+                    &--21{
+                        display: block;
+                    }
+                }
+                &_steps{
+                    display: none;
+                }
+                &_table{
+                    display: flex;
+                }
             }
         }
     }
