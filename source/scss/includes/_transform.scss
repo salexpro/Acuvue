@@ -458,12 +458,21 @@
         }
     }
     &--14{
-        // background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
         .group{
             &--1{
                 transform: translate3d(-100%, 0, 0);
             }
             &--2{
+                transform: translate3d(0, 0, 0);
+            }
+        }
+    }
+    &--15{
+        .group{
+            &--2{
+                transform: translate3d(0, -100%, 0);
+            }
+            &--3{
                 transform: translate3d(0, 0, 0);
             }
         }

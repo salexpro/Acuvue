@@ -4752,32 +4752,54 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/source\/img\/17_slid_mask.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/img\/17_slid_mask.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/source\/img\/17_slide_gears.png": {
-		"ft": 32768,
-		"iS": 3226,
+	"\/source\/img\/15_bg.jpg": {
+		"ft": 16384,
+		"iS": 106257,
 		"oA": 0,
-		"oAP": "\/build\/img\/17_slide_gears.png",
+		"oAP": "\/build\/img\/15_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/15_step.png": {
+		"ft": 32768,
+		"iS": 2363,
+		"oA": 0,
+		"oAP": "\/build\/img\/15_step.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/img\/17_slide_hand.png": {
+	"\/source\/img\/16_step.png": {
 		"ft": 32768,
-		"iS": 1271,
+		"iS": 8030,
 		"oA": 0,
-		"oAP": "\/build\/img\/17_slide_hand.png",
+		"oAP": "\/build\/img\/16_step.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/17_step.png": {
+		"ft": 32768,
+		"iS": 7732,
+		"oA": 0,
+		"oAP": "\/build\/img\/17_step.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/18_step.png": {
+		"ft": 32768,
+		"iS": 7468,
+		"oA": 0,
+		"oAP": "\/build\/img\/18_step.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -4823,17 +4845,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/20_slide_mask.png": {
-		"ft": 32768,
-		"iS": 6743,
-		"oA": 0,
-		"oAP": "\/build\/img\/20_slide_mask.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"\/source\/img\/2_slide_text.png": {
@@ -5006,6 +5017,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/gears.png": {
+		"ft": 32768,
+		"iS": 3226,
+		"oA": 0,
+		"oAP": "\/build\/img\/gears.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/hand.png": {
+		"ft": 32768,
+		"iS": 1271,
+		"oA": 0,
+		"oAP": "\/build\/img\/hand.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/lenses.png": {
 		"ft": 32768,
 		"iS": 1136,
@@ -5107,6 +5140,14 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_group2.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/includes\/_group3.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_group3.html",
 		"oF": 0,
 		"oS": 0
 		},
