@@ -11,9 +11,9 @@
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/.gitignore",
-		"oF": 0
+		"oF": 1
 		},
 	"\/bower.json": {
 		"ft": 524288,
@@ -4405,6 +4405,150 @@
 		"oAP": "\/build\/build",
 		"oF": 0
 		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Black.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Black.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Black.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Black.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Bold.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Bold.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Bold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Bold.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-ExtraBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-ExtraBold.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-ExtraBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-ExtraBold.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-ExtraBold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-ExtraBold.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-ExtraLight.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-ExtraLight.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-ExtraLight.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-ExtraLight.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-ExtraLight.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-ExtraLight.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Light.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Light.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Light.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Light.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Light.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Light.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Regular.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Regular.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Regular.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-SemiBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-SemiBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-SemiBold.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-SemiBold.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-SemiBold.woff2",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Thin.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Thin.ttf",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Thin.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Thin.woff",
+		"oF": 0
+		},
+	"\/source\/fonts\/Akrobat\/Akrobat-Thin.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/fonts\/Akrobat\/Akrobat-Thin.woff2",
+		"oF": 0
+		},
 	"\/source\/fonts\/Circe\/Circe-Bold.ttf": {
 		"ft": 8192,
 		"oA": 2,
@@ -4524,6 +4668,90 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/14_step1.png": {
+		"ft": 32768,
+		"iS": 1367,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step1_bg.jpg": {
+		"ft": 16384,
+		"iS": 50828,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step1_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step2.png": {
+		"ft": 32768,
+		"iS": 7746,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step2_bg.jpg": {
+		"ft": 16384,
+		"iS": 72255,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step2_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step3.png": {
+		"ft": 32768,
+		"iS": 9467,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step3_bg.jpg": {
+		"ft": 16384,
+		"iS": 82948,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step3_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step4.png": {
+		"ft": 32768,
+		"iS": 4243,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/14_step4_bg.jpg": {
+		"ft": 16384,
+		"iS": 59070,
+		"oA": 0,
+		"oAP": "\/build\/img\/14_step4_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/17_slid_mask.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -4533,16 +4761,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/source\/img\/17_slide_bg.jpg": {
-		"ft": 16384,
-		"iS": 292825,
-		"oA": 0,
-		"oAP": "\/build\/img\/17_slide_bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
 		},
 	"\/source\/img\/17_slide_gears.png": {
 		"ft": 32768,
@@ -4566,17 +4784,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/img\/18_slide_mask.png": {
-		"ft": 32768,
-		"iS": 10683,
-		"oA": 0,
-		"oAP": "\/build\/img\/18_slide_mask.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/source\/img\/19_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 84249,
@@ -4585,17 +4792,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/source\/img\/19_slide_mask.png": {
-		"ft": 32768,
-		"iS": 10639,
-		"oA": 0,
-		"oAP": "\/build\/img\/19_slide_mask.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"\/source\/img\/1_slide_bg.jpg": {
@@ -4784,7 +4980,7 @@
 		"oAP": "\/build\/img\/box.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4817,7 +5013,7 @@
 		"oAP": "\/build\/img\/lenses.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4883,7 +5079,7 @@
 		"oAP": "\/build\/img\/qr.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4897,6 +5093,22 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/source\/jade\/includes\/_group1.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_group1.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/includes\/_group2.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_group2.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/source\/jade\/includes\/_head.jade": {
 		"cOD": 1,
@@ -4988,6 +5200,19 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/source\/scss\/includes\/_transform.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_transform.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
@@ -4999,7 +5224,7 @@
 	"displayValue": "Acuvue",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 530727791
+	"lastBuiltDate": 530907392
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
