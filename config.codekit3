@@ -4867,6 +4867,36 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/26_man.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/26_man.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/26_message.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/26_message.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/img\/26_woman.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/26_woman.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/2_slide_text.png": {
 		"ft": 32768,
 		"iS": 3578,
@@ -5176,6 +5206,14 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_group4.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/includes\/_group5.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_group5.html",
 		"oF": 0,
 		"oS": 0
 		},
