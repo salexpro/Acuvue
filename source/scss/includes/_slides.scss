@@ -644,4 +644,103 @@
             }
         }
     }
+    &--4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate3d(100%, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 55px;
+        transition: .4s ease-in-out;
+        background: $white;
+        &_header{
+            display: block;
+            margin-left: 50px;
+        }
+        &_descr{
+            display: block;
+            font-size: 25px;
+            margin-left: 50px;
+        }
+        &_messages{
+            display: flex;
+            margin-bottom: 50px;
+            height: 560px;
+            &_phone{
+                min-width: 376px;
+                margin-left: 50px;
+            }
+            &_content{
+                width: 100%;
+            }
+            &_head{
+                border-top: 10px solid #99d2eb;
+                border-bottom: 10px solid #99d2eb;
+                display: flex;
+                margin-left: -175px;
+                height: 70px;
+                color: $primary-color;
+                font-size: 25px;
+                font-weight: 700;
+                text-transform: uppercase;
+                align-items: center;
+                padding-left: 265px;
+                position: relative;
+                margin-bottom: 15px;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    left: -1px;
+                    bottom: -26px;
+                    width: 32px;
+                    height: 28px;
+                    background-color: $white;
+                }
+                &_thread{
+                    margin-right: 70px;
+                }
+                &_text{
+                    margin-left: 70px;
+                }
+            }
+            &_row{
+                display: flex;
+                margin-left: 90px;
+                align-items: center;
+                padding-right: 50px;
+                &_thread{
+                    text-align: right;
+                    min-width: 240px;
+                    margin-right: 70px;
+                    color: $primary-color;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                &_message{
+                    margin: 15px 0;
+                    margin-left: 70px;
+                    font-size: 20px;
+                    padding: 25px 40px;
+                    border-radius: 20px;
+                    background-color: #0b3e73;
+                    width: 100%;
+                    color: $white;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        width: 50px;
+                        height: 20px;
+                        background-image: url(../img/22_message.svg);
+                        background-position: bottom right;
+                        position: absolute;
+                        right: -35px;
+                        bottom: 0;
+                        background-size: 660px auto;
+                    }
+                }
+            }
+        }
+    }
 }
