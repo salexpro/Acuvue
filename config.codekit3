@@ -4897,6 +4897,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/29_promo.jpg": {
+		"ft": 16384,
+		"iS": 128815,
+		"oA": 0,
+		"oAP": "\/build\/img\/29_promo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/2_slide_text.png": {
 		"ft": 32768,
 		"iS": 3578,
@@ -5045,6 +5055,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/brochure.png": {
+		"ft": 32768,
+		"iS": 2443,
+		"oA": 0,
+		"oAP": "\/build\/img\/brochure.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/chat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/img\/chat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/img\/consumer.png": {
 		"ft": 32768,
 		"iS": 2554,
@@ -5089,6 +5120,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/interface.png": {
+		"ft": 32768,
+		"iS": 1296,
+		"oA": 0,
+		"oAP": "\/build\/img\/interface.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/lenses.png": {
 		"ft": 32768,
 		"iS": 1136,
@@ -5127,6 +5169,17 @@
 		"iS": 1010,
 		"oA": 0,
 		"oAP": "\/build\/img\/points.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/poster.png": {
+		"ft": 32768,
+		"iS": 1656,
+		"oA": 0,
+		"oAP": "\/build\/img\/poster.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -5214,6 +5267,22 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/_group5.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/includes\/_group6.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_group6.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/includes\/_group7.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_group7.html",
 		"oF": 0,
 		"oS": 0
 		},
