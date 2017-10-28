@@ -486,12 +486,44 @@
             &--3{
                 transform: translate3d(0, 0, 0);
                 &_digit{
-                    transform: translate3d(0, 0, 0);
-                    transition-delay: 200ms;
+                    &--1{
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 200ms;
+                    }
                 }
                 &_content{
-                    transform: translate3d(0, 0, 0);
-                    transition-delay: 400ms;
+                    &--1{
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 400ms;
+                    }
+                }
+            }
+        }
+    }
+    &--16{
+        .group{
+            &--3{
+                background-image: url(../img/16_bg.jpg);
+                transition-delay: 200ms;
+                &_digit{
+                    &--1{
+                        transform: translate3d(-100%, 0, 0);
+                        transition-delay: 0s;
+                    }
+                    &--2{
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 400ms;
+                    }
+                }
+                &_content{
+                    &--1{
+                        transform: translate3d(100%, 0, 0);
+                        transition-delay: 0s;
+                    }
+                    &--2{
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 400ms;
+                    }
                 }
             }
         }
