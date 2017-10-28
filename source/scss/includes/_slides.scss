@@ -886,4 +886,77 @@
             justify-content: center;
         }
     }
+    &--7{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate3d(100%, 0, 0);
+        transition: .4s ease-in-out;
+        background: $white;
+        display: flex;
+        justify-content: flex-end;
+        overflow: hidden;
+        &_chat{
+            position: absolute;
+            background-image: url(../img/chat.svg);
+            background-repeat: no-repeat;
+            top: 50%;
+            &--1{
+                height: 158px;
+                width: 230px;
+                left: -60px;
+                transform: scale(-1, -1) translate3d(0, 70%, 0)
+            }
+            &--2{
+                width: 130px;
+                height: 92px;
+                left: 170px;
+                transform: translate3d(0, 70%, 0)
+            }
+        }
+        &_faq{
+            width: 63%;
+            background-image: linear-gradient(to right, $primary-color 42%, rgba(0,0,0,0) 42%);
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &_head{
+                display: flex;
+                &_quest{
+                    width: 42%;
+                    padding-right: 35px;
+                    text-align: right;
+                    color: $white;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                }
+                &_answ{
+                    padding-left: 35px;
+                    text-align: right;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    font-weight: 800;
+                }
+            }
+            &_row{
+                display: flex;
+                &_quest{
+                    font-size: 30px;
+                    color: $white;
+                    text-align: right;
+                    // width: 40%;
+                    flex: 0 0 42%;
+                    padding-right: 35px;
+                }
+                &_answ{
+                    font-size: 20px;
+                    padding-left: 35px;
+                    padding-right: 60px;
+                    padding-top: 7px;
+                }
+            }
+        }
+    }
 }
