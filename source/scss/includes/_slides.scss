@@ -570,6 +570,14 @@
                 margin: 0 10px;
                 display: flex;
                 flex-direction: column;
+                transform: translate3d(15px, 0, 0);
+                transition: 1000ms;
+                opacity: 0;
+                @for $i from 1 through 5 {
+                    &:nth-child(#{$i}) {
+                        transition-delay: #{$i * 200 + 400}ms;
+                    }
+                }
                 &_header{
                     background-color: $primary-color;
                     min-height: 120px;
