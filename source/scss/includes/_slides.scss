@@ -806,7 +806,7 @@
                 }
                 &--2, &--3{
                     .group--4_messages_row_message{
-                        transform: rotate(0);
+                        // transform: rotate(0);
                     }
                 }
                 &_thread{
@@ -829,7 +829,7 @@
                     width: 100%;
                     color: $white;
                     position: relative;
-                    transform: rotate(-3deg);
+                    transform: translate3d(0, 15px, 0);
                     transform-origin: bottom right;
                     transition: 700ms;
                     opacity: 0;
@@ -852,7 +852,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate3d(100%, 0, 0);
+        transform: translate3d(0, 100%, 0);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -866,6 +866,9 @@
             display: flex;
             align-items: center;
             padding: 0 50px;
+            transform: translate3d(0, -100%, 0);
+            transition: 400ms 300ms ease-in-out;
+            opacity: 0;
             &_header{
                 color: $white;
                 font-size: 51px;
@@ -876,7 +879,6 @@
         &_messages{
             width: 710px;
             margin: auto;
-
         }
         &_message{
             margin: 22px 0;
@@ -887,7 +889,15 @@
             width: 100%;
             color: $white;
             position: relative;
-            transform: translateX(10px);
+            transform: translateX(10px) rotate(-3deg) scale(0);
+            transform-origin: bottom right;
+            transition: 500ms;
+            opacity: 0;
+            @for $i from 1 through 4 {
+                &:nth-child(#{$i}) {
+                    transition-delay: #{$i * 200 + 500}ms;
+                }
+            }
             &::after{
                 content: '';
                 width: 60px;
@@ -905,7 +915,8 @@
                 color: $black;
                 text-transform: uppercase;
                 font-weight: 800;
-                transform: translateX(-10px);
+                transform: translateX(-10px) rotate(3deg) scale(0);
+                transform-origin: bottom left;
                 padding: 20px 32px;
                 &::after{
                     background-image: url(../img/26_message.svg);
@@ -926,12 +937,16 @@
             background-image: url(../img/26_man.svg);
             background-repeat: no-repeat;
             background-size: cover;
+            opacity: 0;
+            transform: translate3d(-100%, 0, 0);
+            transition: 400ms 400ms ease-in-out;
         }
         &_woman{
             @extend .group--5_man;
             left: auto;
             right: -130px;
             background-image: url(../img/26_woman.svg);
+            transform: translate3d(100%, 0, 0);
         }
     }
     &--6{

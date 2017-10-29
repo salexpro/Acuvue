@@ -745,7 +745,7 @@
                             }
                             .group--4_messages_row_message{
                                 opacity: 1;
-                                transform: rotate(0);
+                                transform: translate3d(0, 0, 0);
                             }
                         }
                         &--2{
@@ -804,6 +804,7 @@
                             }
                             .group--4_messages_row_message{
                                 opacity: 1;
+                                transform: translate3d(0, 0, 0);
                             }
                         }
                         &--3{
@@ -862,6 +863,7 @@
                             }
                             .group--4_messages_row_message{
                                 opacity: 1;
+                                transform: translate3d(0, 0, 0);
                             }
                         }
                     }
@@ -920,17 +922,47 @@
     }
     &--26{
         .group{
-            &--4{
-                transform: translate3d(-100%, 0, 0);
+            &--1{
+                transform: translate3d(0, -100%, 0);
             }
             &--5{
                 transform: translate3d(0, 0, 0);
+                &_place{
+                    transform: translate3d(0, 0, 0);
+                    opacity: 1;
+                }
+                &_man, &_woman{
+                    transform: translate3d(0, 0, 0);
+                    opacity: 1;
+                }
+                &_messages{
+                    &--1{
+                        .group--5_message{
+                            opacity: 1;
+                            transform: translateX(10px) rotate(0) scale(1);
+                            &--hollow{
+                                transform: translateX(-10px) rotate(0) scale(1);
+                            }
+                        }
+                    }
+                    &--2{
+                        @for $i from 1 through 4 {
+                            &:nth-child(#{$i}) {
+                                .group--4_messages_row{
+                                    &_message, &_thread{
+                                        transition-delay: #{$i * 200}ms;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
     &--29{
         .group{
-            &--5{
+            &--1{
                 transform: translate3d(-100%, 0, 0);
             }
             &--6{
