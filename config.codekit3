@@ -5237,6 +5237,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/box_closed.png": {
+		"ft": 32768,
+		"iS": 2453,
+		"oA": 0,
+		"oAP": "\/build\/img\/box_closed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/brochure.png": {
 		"ft": 32768,
 		"iS": 2443,
@@ -5335,6 +5346,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/list.png": {
+		"ft": 32768,
+		"iS": 2758,
+		"oA": 0,
+		"oAP": "\/build\/img\/list.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 13454,
@@ -5351,6 +5373,17 @@
 		"iS": 184151,
 		"oA": 0,
 		"oAP": "\/build\/img\/loyalty.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/ok.png": {
+		"ft": 32768,
+		"iS": 1362,
+		"oA": 0,
+		"oAP": "\/build\/img\/ok.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -5439,6 +5472,17 @@
 		"iS": 2165,
 		"oA": 0,
 		"oAP": "\/build\/img\/www.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/www_score.png": {
+		"ft": 32768,
+		"iS": 2453,
+		"oA": 0,
+		"oAP": "\/build\/img\/www_score.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

@@ -1522,11 +1522,42 @@
                         top: 0;
                         transform: translate3d(0, -100%, 0);
                     }
+                    &--42{
+                        display: block;
+                    }
                 }
                 &_action{
                     transform: translate3d(0, 0, 0);
                 }
             }
         }
-    } 
+    }
+    &--42{
+        .group{
+            &--1{
+                &_place{
+                    width: 30%;
+                    background: $primary-color;
+                    &_header{
+                        &--41{
+                            transition-delay: 0s;
+                            transform: translate3d(120%, 0, 0);
+                        }
+                        &--42{
+                            transform: translate3d(0, 0, 0);
+                        }
+                    }
+                }
+                &_content{
+                    width: 70%;
+                }
+                &_action{
+                    transform: translate3d(0, -120%, 0);
+                }
+                &_list--42{
+                    transform: translate3d(0, -50%, 0);
+                }
+            }
+        }
+    }
 }
