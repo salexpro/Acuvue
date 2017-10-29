@@ -1041,6 +1041,21 @@
             }
             &--6{
                 transform: translate3d(0, 0, 0);
+                &_content{
+                    &_header, p{
+                        transform: translate3d(0, 0, 0);
+                        opacity: 1;
+                    }
+                }
+                &_list{
+                    li{
+                        transform: translate3d(0, 0, 0);
+                        opacity: 1;
+                    }
+                }
+                &_place{
+                    transform: translate3d(0, 0, 0);
+                }
             }
         }
     }
