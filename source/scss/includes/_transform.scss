@@ -1343,8 +1343,10 @@
         }
     }
     &--38{
+        background-image: url(../img/9_slide_bg.jpg);
         .group{
             &--7{
+                transition-delay: 0s;
                 &_chats{
                     transform: rotate(1080deg)
                 }
@@ -1373,6 +1375,37 @@
                     }
                 }
             }
+            &--1{
+                transform: translate3d(0, 100%, 0);
+                &_circle{
+                    background: rgba($primary-color, .8);
+                    transform: scale(0) translate3d(-50%, -50%, 0);
+                    &_slide{
+                        &--25{
+                            display: none;
+                        }
+                        &--39{
+                            opacity: 1;
+                        }
+                    }
+                }
+                &_counter{
+                    display: none;
+                }
+            }
+        }
+    }
+    &--39{ 
+        .group{
+            &--7{
+                transform: translate3d(0, -100%, 0);
+            }
+            &--1{
+                transform: translate3d(0, 0, 0);
+                &_circle{
+                    transform: scale(1) translate3d(-50%, -50%, 0);
+                }
+           } 
         }
     }
 }
