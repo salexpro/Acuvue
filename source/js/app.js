@@ -20,3 +20,16 @@ $('.switcher_button').click(function(){
         $('.switcher_button--prev').prop('disabled', true);
     }
 })
+
+// Modal
+$('[data-open="modal"]').click(function(){
+    $('.group--1_modal').addClass('opened');
+});
+$('.group--1_modal_close').click(function(){
+    $('.group--1_modal').removeClass('opened');
+    $('.slides').removeClass('slides--40--1 slides--40--2');
+})
+$('[data-slide]').click(function(){
+    $('.slides').addClass('slides--40--' + $(this).data('slide'));
+    $('.group--1_modal').removeClass('opened');
+});

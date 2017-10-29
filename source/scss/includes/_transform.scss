@@ -1407,7 +1407,7 @@
                 &_counter, &_list, &_list--numbered{
                     display: none;
                 }
-                &_list--40{
+                &_list--40, &_list--40--1, &_list--40--2{
                     display: block;
                 }
             }
@@ -1445,7 +1445,50 @@
                 &_content{
                     transform: translate3d(0, 0, 0);
                 }
+                &_modal_close--blue{
+                    // display: block;
+                }
             } 
+        }
+        &--1{
+            .group{
+                &--1{
+                    &_list{
+                        &--40{
+                            top: 100%;
+                            transform: translate3d(0, 0, 0);
+                            &--1{
+                                top: 13%;
+                                transform: translate3d(0, 0, 0);
+                            }
+                        }
+                    }
+                    &_modal_close--blue{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        &--2{
+            .group{
+                &--1{
+                    &_list{
+                        &--40{
+                            top: 100%;
+                            transform: translate3d(0, 0, 0);
+                            &--2{
+                                top: 13%;
+                                transform: translate3d(0, 0, 0);
+                            }
+                        }
+                    }
+                    &_modal_close--blue{
+                        display: block;
+                        opacity: 1;
+                    }
+                }
+            }
         }
     }
 }
