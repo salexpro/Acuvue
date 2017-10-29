@@ -503,7 +503,7 @@
             font-weight: 800;
             text-transform: uppercase;
             margin-left: 40px;
-            transition: 400ms 300ms ease-in-out;
+            transition: 400ms 300ms;
             opacity: 0;
             transform: translate3d(0, 50%, 0);
             &--21{
@@ -513,7 +513,7 @@
         &_descr{
             font-size: 30px;
             margin-left: 40px;
-            transition: 400ms 300ms ease-in-out;
+            transition: 400ms 400ms;
             opacity: 0;
             transform: translate3d(0, 50%, 0);
             &--21{
@@ -729,8 +729,22 @@
             margin-bottom: 50px;
             height: 560px;
             &_phone{
+                position: relative;
+                z-index: 2;
                 min-width: 376px;
                 margin-left: 50px;
+                opacity: 0;
+                transform: translate3d(-50%, 0, 0);
+                transition: .4s ease-in-out;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 58px;
+                    right: 144px;
+                    width: 32px;
+                    height: 28px;
+                    background-color: $white;
+                }
             }
             &_content{
                 width: 100%;
@@ -746,20 +760,16 @@
                 font-weight: 700;
                 text-transform: uppercase;
                 align-items: center;
-                padding-left: 265px;
                 position: relative;
                 margin-bottom: 15px;
-                &::before{
-                    content: '';
-                    position: absolute;
-                    left: -1px;
-                    bottom: -26px;
-                    width: 32px;
-                    height: 28px;
-                    background-color: $white;
-                }
+                width: 0;
+                padding: 0;
+                overflow: hidden;
+                white-space: nowrap;
+                transition: 600ms;
                 &_thread{
                     margin-right: 70px;
+                    margin-left: 265px;
                 }
                 &_text{
                     margin-left: 70px;
@@ -770,6 +780,18 @@
                 margin-left: 90px;
                 align-items: center;
                 padding-right: 50px;
+                @for $i from 1 through 4 {
+                    &:nth-child(#{$i}) {
+                        .group--4_messages_row{
+                            &_thread{
+
+                            }
+                            &_message, &_thread{
+                                transition-delay: #{$i * 200 + 700}ms;
+                            }
+                        }
+                    }
+                }
                 &_thread{
                     text-align: right;
                     min-width: 240px;
@@ -777,6 +799,8 @@
                     color: $primary-color;
                     font-size: 20px;
                     font-weight: 700;
+                    opacity: 0;
+                    transition: 500ms;
                 }
                 &_message{
                     margin: 15px 0;
@@ -788,6 +812,10 @@
                     width: 100%;
                     color: $white;
                     position: relative;
+                    transform: rotate(-2deg);
+                    transform-origin: bottom right;
+                    transition: 500ms;
+                    opacity: 0;
                     &::after{
                         content: '';
                         width: 50px;

@@ -633,7 +633,7 @@
                 }
                 &_list{
                     &--19{
-                        transition-delay: 600ms;
+                        transition-delay: 500ms;
                         opacity: 1;
                     }
                     &--20{
@@ -720,6 +720,34 @@
             }
             &--4{
                 transform: translate3d(0, 0, 0);
+                &_header{
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
+                }
+                &_descr{
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
+                }
+                &_messages{
+                    &_phone{
+                        opacity: 1;
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 400ms;
+                    }
+                    &_head{
+                        width: calc(100% + 175px);
+                        transition-delay: 700ms;
+                    }
+                    &_row{
+                        &_thread{
+                            opacity: 1;
+                        }
+                        &_message{
+                            opacity: 1;
+                            transform: translate3d(0, 0, 0);
+                        }
+                    }
+                }
             }
         }
     }
