@@ -879,6 +879,13 @@
         &_messages{
             width: 710px;
             margin: auto;
+            &--2{
+                position: absolute;
+                z-index: -1;
+                left: 50%;
+                transform: translate(-50%, calc(50% + 130px));
+                bottom: 50%;
+            }
         }
         &_message{
             margin: 22px 0;
