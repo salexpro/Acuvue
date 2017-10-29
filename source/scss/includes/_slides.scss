@@ -748,7 +748,10 @@
             }
             &_content{
                 width: 100%;
-                &--2{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                &--2, &--3{
                     position: absolute;
                     z-index: -1;
                     width: 1174px;
@@ -798,6 +801,11 @@
                         }
                     }
                 }
+                &--2, &--3{
+                    .group--4_messages_row_message{
+                        transform: rotate(0);
+                    }
+                }
                 &_thread{
                     text-align: right;
                     min-width: 300px;
@@ -812,7 +820,7 @@
                     margin: 15px 0;
                     margin-left: 70px;
                     font-size: 20px;
-                    padding: 25px 40px;
+                    padding: 21px 40px;
                     border-radius: 20px;
                     background-color: #0b3e73;
                     width: 100%;
@@ -820,7 +828,7 @@
                     position: relative;
                     transform: rotate(-3deg);
                     transform-origin: bottom right;
-                    transition: 500ms;
+                    transition: 700ms;
                     opacity: 0;
                     &::after{
                         content: '';
