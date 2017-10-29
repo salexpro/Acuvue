@@ -27,7 +27,7 @@
                 transition: .4s ease-in-out;
                 transition-delay: 300ms;
                 transform: translate3d(-110%, 0, 0);
-                &--10{
+                &--10, &--40{
                     font-size: 56px;
                 }
                 &--12{
@@ -295,8 +295,11 @@
                         color: $white;
                     }
                 }
+                a{
+                    padding: 0;
+                }
             }
-            &--1{
+            &--1, &--40{
                 transform: translate3d(0, -50%, 0)
             }
             &--2{
@@ -322,6 +325,9 @@
             }
             &--11, &--20{
                 transform: translate3d(0, 120%, 0)
+            }
+            &--40{
+                display: none;
             }
         }
         &_peoples{

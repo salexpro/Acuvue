@@ -5194,6 +5194,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/blank.png": {
+		"ft": 32768,
+		"iS": 791,
+		"oA": 0,
+		"oAP": "\/build\/img\/blank.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/box.png": {
 		"ft": 32768,
 		"iS": 3295,
@@ -5231,6 +5242,17 @@
 		"iS": 2554,
 		"oA": 0,
 		"oAP": "\/build\/img\/consumer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/curriculum.png": {
+		"ft": 32768,
+		"iS": 2394,
+		"oA": 0,
+		"oAP": "\/build\/img\/curriculum.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -5314,6 +5336,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/phone_rub.png": {
+		"ft": 32768,
+		"iS": 2562,
+		"oA": 0,
+		"oAP": "\/build\/img\/phone_rub.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/points.png": {
 		"ft": 32768,
 		"iS": 1010,
@@ -5374,6 +5407,17 @@
 		"iS": 3031,
 		"oA": 0,
 		"oAP": "\/build\/img\/score.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/www.png": {
+		"ft": 32768,
+		"iS": 2165,
+		"oA": 0,
+		"oAP": "\/build\/img\/www.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
