@@ -1377,6 +1377,7 @@
             }
             &--1{
                 transform: translate3d(0, 100%, 0);
+                background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
                 &_circle{
                     background: rgba($primary-color, .8);
                     transform: scale(0) translate3d(-50%, -50%, 0);
@@ -1419,6 +1420,8 @@
                 transform: translate3d(0, -100%, 0);
             }
             &--1{
+                // transition: none;
+                background-position: 0;
                 transform: translate3d(0, 0, 0);
                 &_circle{
                     transform: scale(1) translate3d(-50%, -50%, 0);
@@ -1430,6 +1433,8 @@
     &--40{ 
         .group{
             &--1{
+                
+                background-size: auto 100%;
                 &_circle{
                     transition-delay: 0s;
                     transform: scale(0) translate3d(-50%, -50%, 0);
@@ -1491,4 +1496,37 @@
             }
         }
     }
+    &--41{
+        .group{
+            &--1{
+                background-image: url(../img/41_place_bg.jpg);
+                &_place{
+                    width: 27%;
+                    background: rgba($primary-color, .9);
+                    &_header{
+                        &--40{
+                            transition-delay: 0s;
+                            transform: translate3d(110%, 0, 0);
+                        }
+                        &--41{
+                            left: 20px;
+                            transform: translate3d(0, 0, 0);
+                        }
+                    }
+                }
+                &_content{
+                    width: 73%;
+                }
+                &_list{
+                    &--40, &--40--1, &--40--2{
+                        top: 0;
+                        transform: translate3d(0, -100%, 0);
+                    }
+                }
+                &_action{
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+        }
+    } 
 }

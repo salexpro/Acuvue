@@ -40,6 +40,9 @@
                     top: 0;
                     transform: translate3d(0, -100%, 0);
                 }
+                &--40{
+                    white-space: nowrap;
+                }
                 span{
                     font-weight: 400;
                 }
@@ -543,6 +546,30 @@
                     opacity: 0;
                     color: $primary-color;
                 }
+            }
+        }
+        &_action{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            transform: translate3d(0, 100%, 0);
+            padding-bottom: 70px;
+            padding-left: 70px;
+            font-size: 25px;
+            transition: 400ms ease-in-out;
+            &_items{
+                height: 385px;
+                background-color: #59b8dd;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 45px 0;
+                margin-left: -70px;
+            }
+            span{
+                color: #ff0000;
+                font-weight: 800;
             }
         }
     }

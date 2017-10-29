@@ -5090,6 +5090,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/41_items.png": {
+		"ft": 32768,
+		"iS": 13768,
+		"oA": 0,
+		"oAP": "\/build\/img\/41_items.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/41_place_bg.jpg": {
+		"ft": 16384,
+		"iS": 297600,
+		"oA": 0,
+		"oAP": "\/build\/img\/41_place_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/4_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 485294,
