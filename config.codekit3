@@ -4836,6 +4836,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/19_delivery_man.png": {
+		"ft": 32768,
+		"iS": 2902,
+		"oA": 0,
+		"oAP": "\/build\/img\/19_delivery_man.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/19_file.png": {
+		"ft": 32768,
+		"iS": 932,
+		"oA": 0,
+		"oAP": "\/build\/img\/19_file.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/19_man_box.png": {
+		"ft": 32768,
+		"iS": 4217,
+		"oA": 0,
+		"oAP": "\/build\/img\/19_man_box.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/19_phone_file.png": {
+		"ft": 32768,
+		"iS": 2212,
+		"oA": 0,
+		"oAP": "\/build\/img\/19_phone_file.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/19_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 84249,
@@ -4844,6 +4888,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/19_sms.png": {
+		"ft": 32768,
+		"iS": 2009,
+		"oA": 0,
+		"oAP": "\/build\/img\/19_sms.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/source\/img\/1_slide_bg.jpg": {
