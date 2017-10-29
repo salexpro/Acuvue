@@ -995,6 +995,7 @@
         &_list{
             margin-right: 100px;
             margin-bottom: 40px;
+            min-width: 660px;
             span{
                 min-width: 97px;
                 height: 97px;
@@ -1027,14 +1028,17 @@
             justify-content: center;
             transition: .4s 400ms ease-in-out;
             transform: translate3d(100%, 0, 0);
-            transition-delay: 300ms;
+            transition-delay: 400ms;
+            &_promo{
+                transition: 200ms ease-in-out;
+            }
         }
     }
     &--7{
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate3d(100%, 0, 0);
+        transform: translate3d(0, 100%, 0);
         transition: .4s ease-in-out;
         background: $white;
         display: flex;
