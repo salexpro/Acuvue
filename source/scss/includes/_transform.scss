@@ -973,6 +973,50 @@
                         }
                     }
                     &--2{
+                        z-index: 1;
+                        .group--5_message{
+                            opacity: 1;
+                            transform: translateX(10px) rotate(0) scale(1);
+                            &--hollow{
+                                transform: translateX(-10px) rotate(0) scale(1);
+                            }
+                            @for $i from 1 through 4 {             
+                                &:nth-child(#{$i}) {
+                                    transition-delay: #{$i * 200 + 700}ms;
+                                }
+                            }
+                        }
+                    }
+                    &--3{
+                        .group--5_message{
+                            @for $i from 1 through 4 {             
+                                &:nth-child(#{$i}) {
+                                    transition-delay: #{$i * 200}ms;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--28{
+        .group{
+            &--5{
+                &_messages{
+                    &--2{
+                        z-index: -1;
+                        .group--5_message{
+                            opacity: 0;
+                            @for $i from 1 through 4 {             
+                                &:nth-child(#{$i}) {
+                                    transition-delay: #{$i * 200}ms;
+                                }
+                            }
+                        }
+                    }
+                    &--3{
+                        z-index: 1;
                         .group--5_message{
                             opacity: 1;
                             transform: translateX(10px) rotate(0) scale(1);
@@ -992,7 +1036,7 @@
     }
     &--29{
         .group{
-            &--1{
+            &--5{
                 transform: translate3d(-100%, 0, 0);
             }
             &--6{
