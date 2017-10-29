@@ -946,12 +946,42 @@
                         }
                     }
                     &--2{
-                        @for $i from 1 through 4 {
-                            &:nth-child(#{$i}) {
-                                .group--4_messages_row{
-                                    &_message, &_thread{
-                                        transition-delay: #{$i * 200}ms;
-                                    }
+                        .group--5_message{
+                            @for $i from 1 through 4 {             
+                                &:nth-child(#{$i}) {
+                                    transition-delay: #{$i * 200}ms;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--27{
+        .group{
+            &--5{
+                &_messages{
+                    &--1{
+                        .group--5_message{
+                            opacity: 0;
+                            @for $i from 1 through 4 {             
+                                &:nth-child(#{$i}) {
+                                    transition-delay: #{$i * 200}ms;
+                                }
+                            }
+                        }
+                    }
+                    &--2{
+                        .group--5_message{
+                            opacity: 1;
+                            transform: translateX(10px) rotate(0) scale(1);
+                            &--hollow{
+                                transform: translateX(-10px) rotate(0) scale(1);
+                            }
+                            @for $i from 1 through 4 {             
+                                &:nth-child(#{$i}) {
+                                    transition-delay: #{$i * 200 + 700}ms;
                                 }
                             }
                         }
