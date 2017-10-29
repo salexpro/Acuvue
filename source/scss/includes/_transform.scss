@@ -1557,6 +1557,32 @@
                 &_list--42{
                     transform: translate3d(0, -50%, 0);
                 }
+                &_circle{
+                    &_slide{
+                        &--39{
+                            display: none;
+                        }
+                        &--42{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--43{
+        .group{
+            &--1{
+                background-position: -100%;
+                &_circle{
+                    transform: scale(1) translate3d(-50%, -50%, 0);
+                }
+                &_place{
+                    transform: translate3d(-100%, 0, 0);
+                }
+                &_content{
+                    transform: translate3d(100%, 0, 0);
+                }
             }
         }
     }
