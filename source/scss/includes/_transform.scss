@@ -556,6 +556,34 @@
             }
         }
     }
+    &--18{
+        .group{
+            &--3{
+                background-image: url(../img/18_bg.jpg);
+                transition-delay: 200ms;
+                &_digit{
+                    &--3{
+                        transform: translate3d(-100%, 0, 0);
+                        transition-delay: 0s;
+                    }
+                    &--4{
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 400ms;
+                    }
+                }
+                &_content{
+                    &--3{
+                        transform: translate3d(100%, 0, 0);
+                        transition-delay: 0s;
+                    }
+                    &--4{
+                        transform: translate3d(0, 0, 0);
+                        transition-delay: 400ms;
+                    }
+                }
+            }
+        }
+    }
     &--21{
         .group{
             &--3{
