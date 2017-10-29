@@ -739,12 +739,75 @@
                         transition-delay: 700ms;
                     }
                     &_row{
-                        &_thread{
-                            opacity: 1;
+                        &--1{
+                            .group--4_messages_row_thread{
+                                opacity: 1;
+                            }
+                            .group--4_messages_row_message{
+                                opacity: 1;
+                                transform: rotate(0);
+                            }
                         }
-                        &_message{
-                            opacity: 1;
-                            transform: translate3d(0, 0, 0);
+                        &--2{
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row{
+                                        &_message, &_thread{
+                                            transition-delay: #{$i * 200}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_message{
+                                transform: rotate(0);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--23{
+        .group{
+            &--4{
+                &_messages{
+                    &_content--2{
+                        z-index: 1;
+                    }
+                    &_row{
+                        &--1{
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row{
+                                        &_message, &_thread{
+                                            transition-delay: #{$i * 200}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_thread{
+                                opacity: 0;
+                            }
+                            .group--4_messages_row_message{
+                                opacity: 0;
+                            }
+                        }
+                        &--2{
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row{
+                                        &_message, &_thread{
+                                            transition-delay: #{$i * 200 + 800}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_thread{
+                                opacity: 1;
+                            }
+                            .group--4_messages_row_message{
+                                opacity: 1;
+                            }
                         }
                     }
                 }
