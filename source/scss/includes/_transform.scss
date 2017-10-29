@@ -867,6 +867,55 @@
                     }
                 }
             }
+            &--1{
+                transform: translate3d(0, 100%, 0);
+                &_place{
+                    display: none;
+                }
+                &_content{
+                    display: none;
+                }
+                &_circle{
+                    background: rgba(#6dbfe2, .9);
+                    transition-delay: 300ms;
+                    &_slide{
+                        &--9{
+                            display: none;
+                        }
+                        &--25{
+                            // transform: translate3d(0, 0, 0);
+                            opacity: 1;
+                        }
+                    }
+                }
+                &_counter{
+                    transition-delay: 400ms;
+                    &::before{
+                        content: '-02';
+                    }
+                }
+            }
+        }
+    }
+    &--25{
+        background-image: url(../img/25_bg.jpg);
+        .group{
+            &--4{
+                transform: translate3d(0, -100%, 0);
+            }
+            &--1{
+                transform: translate3d(0, 0, 0);
+                background-image: url(../img/5_slide_bg.jpg);
+                transition: 400ms ease-in-out;
+                &_circle{
+                    transform: scale(1) translate3d(-50%, -50%, 0);
+                }
+                &_counter{
+                    
+                    transform: rotate(-90deg) translate3d(50%, 0, 0);
+                    
+                }
+            }
         }
     }
     &--26{

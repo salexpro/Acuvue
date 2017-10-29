@@ -4996,6 +4996,27 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/img\/25_bg.jpg": {
+		"ft": 16384,
+		"iS": 608804,
+		"oA": 0,
+		"oAP": "\/build\/img\/25_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/source\/img\/25_text.png": {
+		"ft": 32768,
+		"iS": 3614,
+		"oA": 0,
+		"oAP": "\/build\/img\/25_text.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/26_man.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5041,17 +5062,6 @@
 		"iS": 3578,
 		"oA": 0,
 		"oAP": "\/build\/img\/2_slide_text.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/source\/img\/3-layers.png": {
-		"ft": 32768,
-		"iS": 14541,
-		"oA": 0,
-		"oAP": "\/build\/img\/3-layers.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

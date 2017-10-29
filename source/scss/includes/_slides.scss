@@ -343,6 +343,9 @@
             transition: 400ms ease-in-out;
             font-size: 30px;
             color: $white;
+            &::before{
+                content: '-01';
+            }
         }
         &_scheme{
             position: absolute;
