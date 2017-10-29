@@ -4922,6 +4922,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/20_box_file.png": {
+		"ft": 32768,
+		"iS": 4295,
+		"oA": 0,
+		"oAP": "\/build\/img\/20_box_file.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/20_diploma_qr.png": {
+		"ft": 32768,
+		"iS": 3930,
+		"oA": 0,
+		"oAP": "\/build\/img\/20_diploma_qr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/20_files.png": {
+		"ft": 32768,
+		"iS": 2352,
+		"oA": 0,
+		"oAP": "\/build\/img\/20_files.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/20_phone_qr.png": {
+		"ft": 32768,
+		"iS": 3706,
+		"oA": 0,
+		"oAP": "\/build\/img\/20_phone_qr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/20_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 58640,
