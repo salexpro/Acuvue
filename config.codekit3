@@ -4794,6 +4794,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/17_bg.jpg": {
+		"ft": 16384,
+		"iS": 587209,
+		"oA": 0,
+		"oAP": "\/build\/img\/17_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/17_step.png": {
 		"ft": 32768,
 		"iS": 7732,
