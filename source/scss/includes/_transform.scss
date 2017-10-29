@@ -1177,4 +1177,37 @@
             }
         }
     }
+    &--33{
+        .group{
+            &--7{
+                &_chats{
+                    transform: rotate(180deg)
+                }
+                &_chat{
+                    &--1{
+                        width: 130px;
+                        height: 92px;
+                        left: 0;
+                        transform: translate3d(0, -170%, 0) scale(-1, -1);
+                    }
+                    &--2{
+                        height: 158px;
+                        width: 230px;
+                        left: 130px;
+                        transform: translate3d(0, -30%, 0)
+                    }
+                }
+                &_faq{
+                    &_rows{
+                        &--3{
+                            transform: translate3d(0, calc(-100% - 100px), 0);
+                        }
+                        &--4{
+                            transform: translate3d(0, 0, 0);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
