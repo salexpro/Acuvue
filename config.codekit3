@@ -5270,6 +5270,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/business.png": {
+		"ft": 32768,
+		"iS": 2893,
+		"oA": 0,
+		"oAP": "\/build\/img\/business.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5307,6 +5318,39 @@
 		"iS": 3019,
 		"oA": 0,
 		"oAP": "\/build\/img\/diploma.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/file_list.png": {
+		"ft": 32768,
+		"iS": 2019,
+		"oA": 0,
+		"oAP": "\/build\/img\/file_list.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/files.png": {
+		"ft": 32768,
+		"iS": 1644,
+		"oA": 0,
+		"oAP": "\/build\/img\/files.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/free.png": {
+		"ft": 32768,
+		"iS": 1276,
+		"oA": 0,
+		"oAP": "\/build\/img\/free.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
