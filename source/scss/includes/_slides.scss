@@ -310,13 +310,13 @@
                     padding: 0;
                 }
             }
-            &--1, &--40{
+            &--1, &--40, {
                 transform: translate3d(0, -50%, 0)
             }
             &--2, &--42{
                 transform: translate3d(0, 100%, 0)
             }
-            &--3{
+            &--3, &--44{
                 transform: translate3d(0, -50%, 0);
                 opacity: 0;
                 z-index: 0;
