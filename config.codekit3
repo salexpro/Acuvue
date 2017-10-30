@@ -5226,6 +5226,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/act.jpg": {
+		"ft": 16384,
+		"iS": 126305,
+		"oA": 0,
+		"oAP": "\/build\/img\/act.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/blank.png": {
 		"ft": 32768,
 		"iS": 791,
@@ -5275,6 +5285,17 @@
 		"iS": 2893,
 		"oA": 0,
 		"oAP": "\/build\/img\/business.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/business_file.png": {
+		"ft": 32768,
+		"iS": 3420,
+		"oA": 0,
+		"oAP": "\/build\/img\/business_file.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -5373,6 +5394,17 @@
 		"iS": 1271,
 		"oA": 0,
 		"oAP": "\/build\/img\/hand.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/img\/inbox.png": {
+		"ft": 32768,
+		"iS": 1924,
+		"oA": 0,
+		"oAP": "\/build\/img\/inbox.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -5725,7 +5757,7 @@
 	"displayValue": "Acuvue",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-crying",
-	"lastBuiltDate": 530907392
+	"lastBuiltDate": 531018195
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
