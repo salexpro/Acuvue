@@ -44,7 +44,7 @@ var starterData = {
 }
 doResize(null, starterData);
 
-var current = 1;
+var current = 43;
 
 $('.switcher_button').click(function(){
     if($(this).data('action')=='prev'){
@@ -54,12 +54,12 @@ $('.switcher_button').click(function(){
         current++;
         $('.slides').addClass('slides--' + current);
     };
-    if(current > 1){
+    if(current > 43){
         $('.switcher_button--prev').prop('disabled', false);
     } else{
         $('.switcher_button--prev').prop('disabled', true);
     }
-    if(current < 24){
+    if(current < 45){
         $('.switcher_button--next').prop('disabled', false);
     } else {
         $('.switcher_button--next').prop('disabled', true);
