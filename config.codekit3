@@ -5122,6 +5122,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/47_text.png": {
+		"ft": 32768,
+		"iS": 4839,
+		"oA": 0,
+		"oAP": "\/build\/img\/47_text.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/source\/img\/4_slide_bg.jpg": {
 		"ft": 16384,
 		"iS": 485294,
@@ -5587,6 +5598,54 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/jade\/group2.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/group2.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/group3.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/group3.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/group4.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/group4.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/group5.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/group5.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/group6.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/build\/group6.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/source\/jade\/includes\/_footer.jade": {
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/build\/_footer.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/source\/jade\/includes\/_group1.jade": {
 		"cOD": 1,
 		"ft": 512,
@@ -5659,38 +5718,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/source\/jade\/slider2.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/build\/slider2.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/slider3.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/build\/slider3.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/slider4.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/build\/slider4.html",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/source\/jade\/slider5.jade": {
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/build\/slider5.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/source\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5698,26 +5725,6 @@
 		"oA": 0,
 		"oAP": "\/build\/js\/app.min.js",
 		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/source\/js\/app2.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/app2.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/source\/js\/app3.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/js\/app3.min.js",
-		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},

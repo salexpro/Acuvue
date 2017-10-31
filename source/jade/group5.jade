@@ -5,4 +5,10 @@ html(lang="ru")
         main.presentation
             section.slides.slides--1.slides--2.slides--3.slides--4.slides--5.slides--6.slides--7.slides--8.slides--9.slides--10.slides--11.slides--12.slides--13.slides--14.slides--15.slides--16.slides--17.slides--18.slides--19.slides--20.slides--21.slides--22.slides--23.slides--24.slides--25.slides--26.slides--27.slides--28.slides--29.slides--30.slides--31.slides--32.slides--33.slides--34.slides--35.slides--36.slides--37.slides--38.slides--39.slides--40.slides--41.slides--42.slides--43.slides--44.slides--45.slides--46
                 include includes/_group1
-        script(src="./js/app.min.js")
+            .switcher
+                button.switcher_button.switcher_button--prev(data-action='prev' disabled)
+                button.switcher_button.switcher_button--next(data-action='next')
+        script.
+            var first = 46;
+            var last = 46;
+        include includes/_footer
