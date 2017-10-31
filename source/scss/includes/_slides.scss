@@ -14,14 +14,14 @@
             position: absolute;
             left: 0;
             top: 0;
-            background-image: url(../img/5_slide_bg.jpg);
+            background-image: url(#{$path}img/5_slide_bg.jpg);
             background-size: cover;
             transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;
             transform: translate3d(-100%, 0, 0);
             z-index: 0;
         }
         &::after{
-            background-image: url(../img/7_slide_bg.jpg);
+            background-image: url(#{$path}img/7_slide_bg.jpg);
             opacity: 0;
             transition: opacity 0s 400ms ease-in-out;
         }
@@ -30,7 +30,6 @@
             width: 100%;
             transform: skewX(17deg) translate3d(-460px, 0, 0);
             transition: transform 400ms ease-in-out, opacity 400ms ease-in-out;//, width 0s 400ms ease-in-out;
-            // padding: 35px 30px;
             overflow: hidden;
             position: absolute;
             left: 0;
@@ -54,7 +53,7 @@
                 height: 100%;
                 z-index: -1;
                 transform: translate3d(0, 0, 0);
-                background-image: url(../img/6_slide_bg.jpg);
+                background-image: url(#{$path}img/6_slide_bg.jpg);
                 background-size: cover;
                 opacity: 0;
                 transition: opacity 400ms ease-in-out;
@@ -510,7 +509,7 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            background-image: url(../img/4_slide_peoples.png);
+            background-image: url(#{$path}img/4_slide_peoples.png);
             background-position: bottom center;
             background-size: cover;
             opacity: 0;
@@ -891,9 +890,9 @@
             @for $i from 1 through 4 {
                 &--#{$i} {
                     transition-delay: #{$i * 150 + 300}ms;
-                    background-image: url(../img/14_step#{$i}_bg.jpg);
+                    background-image: url(#{$path}img/14_step#{$i}_bg.jpg);
                     .group--2_step_content{
-                        background-image: url(../img/14_step#{$i}.png);
+                        background-image: url(#{$path}img/14_step#{$i}.png);
                     }
                 }
             }
@@ -947,13 +946,13 @@
         transform: translate3d(0, 100%, 0);
         transition: 400ms ease-in-out;
         background: $white;
-        background-image: url(../img/15_bg.jpg);
+        background-image: url(#{$path}img/15_bg.jpg);
         background-size: cover;
         overflow: hidden;
         &_digit{
             min-width: 370px;
             height: 100%;
-            background-image: url(../img/15_step.png);
+            background-image: url(#{$path}img/15_step.png);
             background-size: cover;
             transition: 400ms ease-in-out;
             transform: translate3d(-100%, 0, 0);
@@ -962,17 +961,17 @@
             left: 0;
             &--2{
                 min-width: 380px;
-                background-image: url(../img/16_step.png);
+                background-image: url(#{$path}img/16_step.png);
                 background-size: 100% 100%;
             }
             &--3{
                 min-width: 360px;
-                background-image: url(../img/17_step.png);
+                background-image: url(#{$path}img/17_step.png);
                 background-size: 100% 100%;
             }
             &--4{
                 min-width: 380px;
-                background-image: url(../img/18_step.png);
+                background-image: url(#{$path}img/18_step.png);
                 background-size: 100% calc(100% + 1px);
             }
         }
@@ -1031,12 +1030,12 @@
             }
             &--hand{
                 &::after{
-                    background-image: url(../img/hand.png);
+                    background-image: url(#{$path}img/hand.png);
                 }
             }
             &--gears{
                 &::after{
-                    background-image: url(../img/gears.png);
+                    background-image: url(#{$path}img/gears.png);
                 }
             }
         }
@@ -1171,7 +1170,7 @@
                         content: '';
                         width: 50px;
                         height: 20px;
-                        background-image: url(../img/22_message.svg);
+                        background-image: url(#{$path}img/22_message.svg);
                         background-position: bottom right;
                         position: absolute;
                         right: -35px;
@@ -1243,7 +1242,7 @@
                 content: '';
                 width: 60px;
                 height: 30px;
-                background-image: url(../img/22_message.svg);
+                background-image: url(#{$path}img/22_message.svg);
                 background-position: bottom right;
                 position: absolute;
                 right: -35px;
@@ -1260,7 +1259,7 @@
                 transform-origin: bottom left;
                 padding: 20px 32px;
                 &::after{
-                    background-image: url(../img/26_message.svg);
+                    background-image: url(#{$path}img/26_message.svg);
                     transform: scale(-1, 1);
                     right: auto;
                     left: -33px;
@@ -1276,7 +1275,7 @@
             bottom: 0;
             width: 470px;
             height: 590px;
-            background-image: url(../img/26_man.svg);
+            background-image: url(#{$path}img/26_man.svg);
             background-repeat: no-repeat;
             background-size: cover;
             opacity: 0;
@@ -1287,7 +1286,7 @@
             @extend .group--5_man;
             left: auto;
             right: -130px;
-            background-image: url(../img/26_woman.svg);
+            background-image: url(#{$path}img/26_woman.svg);
             transform: translate3d(100%, 0, 0);
         }
     }
@@ -1389,7 +1388,7 @@
         }
         &_chat{
             position: absolute;
-            background-image: url(../img/chat.svg);
+            background-image: url(#{$path}img/chat.svg);
             background-repeat: no-repeat;
             transition: 400ms ease-in-out;
             &--1{

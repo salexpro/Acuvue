@@ -13,21 +13,21 @@
         position: relative;
         width: 40px;
         background-color: #fff;
-        color: #2e497c;
+        color: $primary-color;
         outline: none;
         cursor: pointer;
         &:hover{
-            background-color: #2e497c;
+            background-color: $primary-color;
             color: #fff;
             &::before{
-                background-image: url(../img/preza-arrow-white.png);
+                background-image: url(#{$path}img/preza-arrow-white.png);
             }
         }
         &::before{
             width: 36px;
             height: 36px;
             margin: 2px;
-            background-image: url(../img/preza-arrow.png);
+            background-image: url(#{$path}img/preza-arrow.png);
             background-size: 40%;
             background-repeat: no-repeat;
             background-position: 50%;
@@ -50,7 +50,7 @@
             cursor: no-drop;
             background: $medium-gray;
             &::before{
-                background-image: url(../img/preza-arrow-white.png);
+                background-image: url(#{$path}img/preza-arrow-white.png);
             }
         }
     }

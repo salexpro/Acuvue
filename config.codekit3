@@ -5122,6 +5122,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/source\/img\/47_bg.jpg": {
+		"ft": 16384,
+		"iS": 727719,
+		"oA": 0,
+		"oAP": "\/build\/img\/47_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/source\/img\/47_text.png": {
 		"ft": 32768,
 		"iS": 4839,

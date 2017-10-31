@@ -1,0 +1,17 @@
+doctype html
+html(lang="ru")
+    include includes/_head
+    body
+        main.presentation
+            section.slides.slides--47
+                .group.group--1
+                    .group--1_circle
+                        .group--1_circle_slide.group--1_circle_slide--47
+                            img(src="../img/47_text.png", alt="")
+            .switcher
+                button.switcher_button.switcher_button--prev(data-action='prev' disabled)
+                button.switcher_button.switcher_button--next(data-action='next')
+        script.
+            var first = 47;
+            var last = 47;
+        include includes/_footer

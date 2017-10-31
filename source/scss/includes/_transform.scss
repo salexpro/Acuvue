@@ -22,7 +22,6 @@
     &::before{
         background-image: url(../img/4_slide_bg.jpg);
         background-position: bottom center;
-        // z-index: -1;
     }
     &--2{
         .group{
@@ -123,9 +122,6 @@
                 &_peoples{
                     opacity: 1;
                 }
-                &_counter{
-                    transform: rotate(-90deg) translate3d(50%, 0, 0);
-                }
             }
         }
     }
@@ -161,9 +157,6 @@
                 }
                 &_peoples{
                     opacity: 0;
-                }
-                &_counter{
-                    transform: rotate(-90deg) translate3d(50%, -150%, 0);
                 }
             }
         }
@@ -942,17 +935,10 @@
                         }
                     }
                 }
-                &_counter{
-                    transition-delay: 400ms;
-                    &::before{
-                        content: '-02';
-                    }
-                }
             }
         }
     }
     &--25{
-        // background-image: url(../img/25_bg.jpg);
         &::before{
             background-image: url(../img/25_bg.jpg);
         }
@@ -962,20 +948,13 @@
             }
             &--1{
                 transform: translate3d(0, 0, 0);
-                // background-image: url(../img/5_slide_bg.jpg);
                 transition: 400ms ease-in-out;
                 &_circle{
-                    // transform: scale(1) translate3d(-50%, -50%, 0);
                     transform: translate3d(536px, calc(450px - 50%), 0);
                     opacity: 1;
                     &::after{
                         background: rgba(#6dbfe2, .9);
                     }
-                }
-                &_counter{
-                    
-                    transform: rotate(-90deg) translate3d(50%, 0, 0);
-                    
                 }
             }
         }
@@ -1161,36 +1140,6 @@
     &--31{
         .group{
             &--7{
-                // &_chats{
-                //     transition-delay: 0s;
-                //     // transform: rotate(180deg)
-                // }
-                // &_chat{
-                //     // &--1{
-                //     //     width: 130px;
-                //     //     height: 92px;
-                //     //     left: 0;
-                //     //     transform: translate3d(0, -170%, 0) scale(-1, -1);
-                //     // }
-                //     // &--2{
-                //     //     height: 158px;
-                //     //     width: 230px;
-                //     //     left: 130px;
-                //     //     transform: translate3d(0, -30%, 0)
-                //     // }
-                //     &--2{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: -60px;
-                //         transform: scale(-1, -1) translate3d(0, 70%, 0)
-                //     }
-                //     &--1{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 170px;
-                //         transform: translate3d(0, 70%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--1{
@@ -1207,23 +1156,6 @@
     &--32{
         .group{
             &--7{
-                // &_chats{
-                //     transform: rotate(360deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: -60px;
-                //         transform: scale(-1, -1) translate3d(0, 70%, 0)
-                //     }
-                //     &--2{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 170px;
-                //         transform: translate3d(0, 70%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--2{
@@ -1240,23 +1172,6 @@
     &--33{
         .group{
             &--7{
-                // &_chats{
-                //     transform: rotate(360deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 0;
-                //         transform: translate3d(0, -170%, 0) scale(-1, -1);
-                //     }
-                //     &--2{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: 130px;
-                //         transform: translate3d(0, -30%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--3{
@@ -1273,23 +1188,6 @@
     &--34{
         .group{
             &--7{
-                // &_chats{
-                //     transform: rotate(540deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: -60px;
-                //         transform: scale(-1, -1) translate3d(0, 70%, 0)
-                //     }
-                //     &--2{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 170px;
-                //         transform: translate3d(0, 70%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--4{
@@ -1306,23 +1204,6 @@
     &--35{
         .group{
             &--7{
-                // &_chats{
-                //     transform: rotate(720deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 0;
-                //         transform: translate3d(0, -170%, 0) scale(-1, -1);
-                //     }
-                //     &--2{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: 130px;
-                //         transform: translate3d(0, -30%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--5{
@@ -1339,23 +1220,6 @@
     &--36{
         .group{
             &--7{
-                // &_chats{
-                //     transform: rotate(900deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: -60px;
-                //         transform: scale(-1, -1) translate3d(0, 70%, 0)
-                //     }
-                //     &--2{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 170px;
-                //         transform: translate3d(0, 70%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--6{
@@ -1372,23 +1236,6 @@
     &--37{
         .group{
             &--7{
-                // &_chats{
-                //     transform: rotate(1080deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 0;
-                //         transform: translate3d(0, -170%, 0) scale(-1, -1);
-                //     }
-                //     &--2{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: 130px;
-                //         transform: translate3d(0, -30%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--7{
@@ -1410,23 +1257,6 @@
         .group{
             &--7{
                 transition-delay: 0s;
-                // &_chats{
-                //     transform: rotate(1260deg)
-                // }
-                // &_chat{
-                //     &--1{
-                //         height: 158px;
-                //         width: 230px;
-                //         left: -60px;
-                //         transform: scale(-1, -1) translate3d(0, 70%, 0)
-                //     }
-                //     &--2{
-                //         width: 130px;
-                //         height: 92px;
-                //         left: 170px;
-                //         transform: translate3d(0, 70%, 0)
-                //     }
-                // }
                 &_faq{
                     &_rows{
                         &--8{
@@ -1440,11 +1270,8 @@
             }
             &--1{
                 transform: translate3d(0, 100%, 0);
-                // background-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
                 
                 &_circle{
-                    // background: rgba($primary-color, .8);
-                    // transform: scale(0) translate3d(-50%, -50%, 0);
                     &::after{
                         background-color: rgba($primary-color, .8);
                     }
@@ -1472,7 +1299,7 @@
                     transform: translate3d(100%, 0, 0);
                     transition: 400ms ease-in-out;
                 }
-                &_counter, &_list, &_list--numbered{
+                &_list, &_list--numbered{
                     display: none;
                 }
                 &_list--40, &_list--40--1, &_list--40--2{
@@ -1487,13 +1314,10 @@
                 transform: translate3d(0, -100%, 0);
             }
             &--1{
-                // transition: none;
-
                 background-position: 0;
                 transform: translate3d(0, 0, 0);
                 &_circle{
                     transition-delay: 0s;
-                    // transform: scale(1) translate3d(-50%, -50%, 0);
                 }
                 
             } 
@@ -1502,8 +1326,6 @@
     &--40{ 
         .group{
             &--1{
-                
-                // background-size: auto 100%;
                 &_circle{
                     transform: translate3d(536px, -100%, 0);
                     opacity: 0;
@@ -1569,9 +1391,7 @@
     &--41{
         .group{
             &--1{
-                // background-image: url(../img/41_place_bg.jpg);
                 &_place{
-                    // width: 27%;
                     background: rgba($primary-color, .9);
                     &_header{
                         &--40{
@@ -1584,9 +1404,6 @@
                             opacity: 1;
                         }
                     }
-                }
-                &_content{
-                    // width: 73%;
                 }
                 &_list{
                     &--40, &--40--1, &--40--2{
@@ -1651,7 +1468,6 @@
                 }
                 &_place{
                     transform: translate3d(-100%, 0, 0);
-                    // background: none;
                     &_header{
                         &--40, &--41{
                             display: none;
@@ -1771,6 +1587,25 @@
                     }
                     &--46{
                         transform: translate3d(0, -50%, 0);
+                    }
+                }
+            }
+        }
+    }
+    &--47{
+        &::after{
+            background-image: url(#{$path}img/47_bg.jpg);
+        }
+        .group{
+            &--1{
+                &_circle{
+                    transform: translate3d(536px, calc(450px - 50%), 0);
+                    &::after{
+                        opacity: 1;
+                        background-color: rgba(#6dbfe2, 0.9);
+                    }
+                    &_slide{
+                        opacity: 1;
                     }
                 }
             }
