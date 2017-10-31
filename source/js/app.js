@@ -1,6 +1,4 @@
-/* 
-@codekit-prepend '../../bower_components/jquery/dist/jquery.min.js';
-*/
+/*@codekit-prepend '../../bower_components/jquery/dist/jquery.min.js';*/
 
 var $el = $(".slides");
 var elWidth = $el.outerWidth();
