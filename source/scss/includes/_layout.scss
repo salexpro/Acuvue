@@ -120,7 +120,8 @@ $path: '../';
 }
 
 html, body{
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
 }
 
 [type='text'],

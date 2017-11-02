@@ -31,13 +31,15 @@ function doResize(event, ui) {
 
 }
 
-var starterData = {
-    size: {
-        width: $wrapper.width(),
-        height: $wrapper.height()
+$(document).ready(function(){
+    var starterData = {
+        size: {
+            width: $wrapper.width(),
+            height: $wrapper.height()
+        }
     }
-}
-doResize(null, starterData);
+    doResize(null, starterData);
+});
 
 var current = first;
 
