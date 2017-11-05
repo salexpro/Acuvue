@@ -32,7 +32,7 @@
                 &_circle{
                     &_slide{
                         &--1{
-                            transform: translate3d(calc(-50% - 524px), -50%, 0);
+                            transform: translate3d(-769px, -50%, 0);
                             opacity: 0;
                         }
                         &--2{
@@ -54,7 +54,7 @@
                 &_circle{
                     &_slide{
                         &--2{
-                            transform: translate3d(calc(-50% - 527px), -50%, 0);
+                            transform: translate3d(-769px, -50%, 0);
                             opacity: 0;
                         }
                         &--3{
@@ -65,7 +65,7 @@
                 }
                 &_list{
                     &--1{
-                        transform: translate3d(0, calc(-100% - 450px), 0);
+                        transform: translate3d(0, -1140px, 0);
                     }
                     &--2{
                         transform: translate3d(0, -50%, 0)
@@ -87,13 +87,13 @@
                     transform: translate3d(-100%, 0, 0);
                 }
                 &_circle{
-                    transform: translate3d(536px, calc(450px - 60%), 0);
+                    transform: translate3d(536px, 136px, 0);
                     &::after{
                         opacity: 1;
                     }
                     &_slide{
                         &--3{
-                            transform: translate3d(calc(-50% + 527px), -50%, 0);
+                            transform: translate3d(282px, -50%, 0);
                             opacity: 0;
                         }
                         &--2{
@@ -191,7 +191,7 @@
                     transform: translate3d(480px, 0, 0);
                 }
                 &_list--3{
-                    transform: translate3d(0, calc(-100% - 450px), 0)
+                    transform: translate3d(0, -997px, 0)
                 }
                 &_scheme{
                     transform: translate3d(0, 0, 0);
@@ -318,7 +318,7 @@
                     transition: none;
                 }
                 &_circle{
-                    transform: translate3d(536px, calc(450px - 50%), 0);
+                    transform: translate3d(536px, 188px, 0);
                     opacity: 1;
                 }
                 &_place{
@@ -453,7 +453,7 @@
         // background-image: url(../img/1_slide_bg.jpg);
         .group{
             &--1{
-                &_place{          
+                &_place{
                     height: 100%;
                     background-color: rgba($primary-color, .9);
                     &_header{
@@ -463,8 +463,9 @@
                             transform: translate3d(0, -100%, 0);
                         }
                         &--13{
-                            top: 40px;
+                            // top: 40px;
                             transform: translate3d(0, 0, 0);
+                            opacity: 1;
                         }
                     }
                     &_points{
@@ -781,7 +782,7 @@
                         transition-delay: 400ms;
                     }
                     &_head{
-                        width: calc(100% + 175px);
+                        width: 1350px;
                         transition-delay: 700ms;
                     }
                     &_row{
@@ -950,7 +951,7 @@
                 transform: translate3d(0, 0, 0);
                 transition: 400ms ease-in-out;
                 &_circle{
-                    transform: translate3d(536px, calc(450px - 50%), 0);
+                    transform: translate3d(536px, 188px, 0);
                     opacity: 1;
                     &::after{
                         background: rgba(#6dbfe2, .9);
@@ -1119,6 +1120,7 @@
                     transition-delay: 0s;
                     margin-right: 585px;
                     margin-left: -208px;
+                    width: 423px;
                     &_promo{
                         opacity: 0;
                         transition-delay: 0s;
@@ -1143,7 +1145,7 @@
                 &_faq{
                     &_rows{
                         &--1{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--2{
                             transform: translate3d(0, 0, 0);
@@ -1159,7 +1161,7 @@
                 &_faq{
                     &_rows{
                         &--2{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--3{
                             transform: translate3d(0, 0, 0);
@@ -1175,7 +1177,7 @@
                 &_faq{
                     &_rows{
                         &--3{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--4{
                             transform: translate3d(0, 0, 0);
@@ -1191,7 +1193,7 @@
                 &_faq{
                     &_rows{
                         &--4{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--5{
                             transform: translate3d(0, 0, 0);
@@ -1207,7 +1209,7 @@
                 &_faq{
                     &_rows{
                         &--5{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--6{
                             transform: translate3d(0, 0, 0);
@@ -1223,7 +1225,7 @@
                 &_faq{
                     &_rows{
                         &--6{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--7{
                             transform: translate3d(0, 0, 0);
@@ -1239,7 +1241,7 @@
                 &_faq{
                     &_rows{
                         &--7{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--8{
                             transform: translate3d(0, 0, 0);
@@ -1260,7 +1262,7 @@
                 &_faq{
                     &_rows{
                         &--8{
-                            transform: translate3d(0, calc(-100% - 100px), 0);
+                            transform: translate3d(0, -860px, 0);
                         }
                         &--9{
                             transform: translate3d(0, 0, 0);
@@ -1270,7 +1272,6 @@
             }
             &--1{
                 transform: translate3d(0, 100%, 0);
-                
                 &_circle{
                     &::after{
                         background-color: rgba($primary-color, .8);
@@ -1319,11 +1320,10 @@
                 &_circle{
                     transition-delay: 0s;
                 }
-                
-            } 
+            }
         }
     }
-    &--40{ 
+    &--40{
         .group{
             &--1{
                 &_circle{
@@ -1345,7 +1345,7 @@
                 &_modal_close--blue{
                     // display: block;
                 }
-            } 
+            }
         }
         &--1{
             .group{
@@ -1463,7 +1463,7 @@
         .group{
             &--1{
                 &_circle{
-                    transform: translate3d(536px, calc(450px - 50%), 0);
+                    transform: translate3d(536px, 188px, 0);
                     opacity: 1;
                 }
                 &_place{
@@ -1599,7 +1599,7 @@
         .group{
             &--1{
                 &_circle{
-                    transform: translate3d(536px, calc(450px - 50%), 0);
+                    transform: translate3d(536px, 188px, 0);
                     &::after{
                         opacity: 1;
                         background-color: rgba(#6dbfe2, 0.9);
