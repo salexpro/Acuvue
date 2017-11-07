@@ -607,6 +607,7 @@
             display: flex;
             justify-content: center;
             height: 100%;
+            width: 100%;
             p{
                 font-size: 36px;
                 line-height: 1.2;
@@ -646,7 +647,7 @@
                 position: static;
                 li{
                     padding: 0;
-                    min-height: auto;
+                    min-height: initial;
                     margin-bottom: 20px;
                     opacity: 0;
                     transition: 500ms;
@@ -899,6 +900,7 @@
             display: none;
             padding: 0 10px;
             padding-bottom: 20px;
+            margin-top: 40px;
             &_column{
                 border: 3px solid $primary-color;
                 margin: 0 10px;
@@ -907,7 +909,7 @@
                 transform: translate3d(15px, 0, 0);
                 transition: 1000ms;
                 opacity: 0;
-                -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
                 @for $i from 1 through 5 {
                     &:nth-child(#{$i}) {
                         transition-delay: #{$i * 200 + 400}ms;
@@ -934,6 +936,7 @@
                     text-align: center;
                     height: 100%;
                     padding: 20px;
+                    flex: 1 1 ;
                 }
             }
         }
@@ -1067,6 +1070,7 @@
                 position: relative;
                 z-index: 2;
                 min-width: 376px;
+                width: 376px;
                 margin-left: 50px;
                 opacity: 0;
                 transform: translate3d(-50%, 0, 0);
@@ -1445,10 +1449,12 @@
                 transform: translate3d(0, 800px, 0);
                 transition: 400ms ease-in-out;
                 width: 100%;
+                z-index: 8;
                 &--1{
                     position: static;
                     transform: translate3d(0, 0, 0);
                     height: 100%;
+                    flex: 1 1 100%;
                 }
             }
             &_row{
