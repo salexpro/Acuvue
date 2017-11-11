@@ -685,6 +685,12 @@
             a{
                 color: $white;
             }
+            ol{
+                font-weight: bold;
+                li{
+                    margin-bottom: 30px;
+                }
+            }
             &_link{
                 margin: 20px 0;
                 display: block;
@@ -700,7 +706,6 @@
                     border: 10px solid transparent;
                     border-top-color: $white;
                     border-left-color: $white;
-                    
                 }
                 &::after{
                     content: 'Нажмите!';
