@@ -830,7 +830,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate3d(100%, 0, 0);
+        transform: translate3d(101%, 0, 0);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -914,11 +914,14 @@
                 transform: translate3d(15px, 0, 0);
                 transition: 1000ms;
                 opacity: 0;
-                flex: 1 1 100%;
+                flex: 1 1 1%;
                 @for $i from 1 through 5 {
                     &:nth-child(#{$i}) {
                         transition-delay: #{$i * 200 + 400}ms;
                     }
+                }
+                &:last-child{
+                    flex: 1 1 8%;
                 }
                 &_header{
                     background-color: $primary-color;
@@ -1095,7 +1098,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                &--2, &--3{
+                &--2, &--3, &--4, &--5{
                     position: absolute;
                     z-index: -1;
                     width: 1174px;
@@ -1103,6 +1106,9 @@
                     bottom: 50px;
                     height: 560px;
                     padding-top: 85px;
+                }
+                &--5 {
+                    justify-content: space-around;
                 }
             }
             &_head{
@@ -1133,7 +1139,7 @@
             }
             &_row{
                 display: flex;
-                margin-left: 30px;
+                margin-left: 15px;
                 align-items: center;
                 padding-right: 50px;
                 @for $i from 1 through 4 {
@@ -1152,7 +1158,7 @@
                 }
                 &_thread{
                     text-align: right;
-                    min-width: 300px;
+                    min-width: 315px;
                     margin-right: 70px;
                     color: $primary-color;
                     font-size: 20px;

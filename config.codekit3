@@ -7,7 +7,7 @@
 		"uuidString": "5C187A25-3F55-476F-B331-8ED5900B5F60"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -15,6 +15,14 @@
 		"oA": 1,
 		"oAP": "\/build\/.gitignore",
 		"oF": 1
+		},
+	"\/.vscode\/settings.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/build\/.vscode\/settings-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/bower.json": {
 		"ft": 524288,

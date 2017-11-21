@@ -12,7 +12,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: calc(100% - 1px);
         height: 100%;
         z-index: -1;
         background-image: url(../img/1_slide_bg.jpg);
@@ -913,6 +913,18 @@
                                 transform: translate3d(0, 0, 0);
                             }
                         }
+                        &--4 {
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row {
+                                        &_message,
+                                        &_thread {
+                                            transition-delay: #{$i * 200}ms;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -925,14 +937,124 @@
                     display: none;
                 }
                 &_circle{
-                    // background: rgba(#6dbfe2, .9);
                     &_slide{
                         &--9{
                             display: none;
                         }
                         &--25{
-                            // transform: translate3d(0, 0, 0);
                             opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--48 {
+        .group {
+            &--4 {
+                &_messages {
+                    &_content--4 {
+                        z-index: 2;
+                    }
+                    &_row {
+                        &--3 {
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row {
+                                        &_message,
+                                        &_thread {
+                                            transition-delay: #{$i * 200}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_thread {
+                                opacity: 0;
+                            }
+                            .group--4_messages_row_message {
+                                opacity: 0;
+                            }
+                        }
+                        &--4 {
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row {
+                                        &_message,
+                                        &_thread {
+                                            transition-delay: #{$i * 200 + 800}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_thread {
+                                opacity: 1;
+                            }
+                            .group--4_messages_row_message {
+                                opacity: 1;
+                                transform: translate3d(0, 0, 0);
+                            }
+                        }
+                        &--5 {
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row {
+                                        &_message,
+                                        &_thread {
+                                            transition-delay: #{$i * 200}ms;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &--49 {
+        .group {
+            &--4 {
+                &_messages {
+                    &_content--5 {
+                        z-index: 2;
+                    }
+                    &_row {
+                        &--4 {
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row {
+                                        &_message,
+                                        &_thread {
+                                            transition-delay: #{$i * 200}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_thread {
+                                opacity: 0;
+                            }
+                            .group--4_messages_row_message {
+                                opacity: 0;
+                            }
+                        }
+                        &--5 {
+                            @for $i from 1 through 4 {
+                                &:nth-child(#{$i}) {
+                                    .group--4_messages_row {
+                                        &_message,
+                                        &_thread {
+                                            transition-delay: #{$i * 200 + 800}ms;
+                                        }
+                                    }
+                                }
+                            }
+                            .group--4_messages_row_thread {
+                                opacity: 1;
+                            }
+                            .group--4_messages_row_message {
+                                opacity: 1;
+                                transform: translate3d(0, 0, 0);
+                            }
                         }
                     }
                 }

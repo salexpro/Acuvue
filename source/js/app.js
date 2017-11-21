@@ -47,12 +47,20 @@ $('.switcher_button').click(function() {
     var action = $(this).data('action');
 
     if (action == 'prev') {
+        if (current == 47) {
+            current = 24;
+            last = 24;
+        }
         $('.slides').removeClass('slides--' + current);
         current--;
     } else if (current < last) {
         current++;
         $('.slides').addClass('slides--' + current);
-    } else {
+    } else if(current == 24){
+        current = 48;
+        last = 49;
+        $('.slides').addClass('slides--' + current);
+    } else{
         preza.emit('changeSlide');
     }
 
